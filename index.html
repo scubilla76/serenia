@@ -1,131 +1,129 @@
+html
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<title>SERENIA VR - Bosque de Otoño</title>
-	<link rel="manifest" href="./manifest.json">
-	<link rel="icon" type="image/png" href="./psychology.png">
-	<link rel="apple-touch-icon" href="./psychology.png">
+  <meta charset="UTF-8">
+  <title>SERENIA VR - Bosque de Otoño</title>
 
-	<!-- A-Frame -->
-	<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <!-- A-Frame -->
+  <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
 </head>
 
 <body>
 
-	<a-scene>
+  <a-scene>
 
-		<!-- ========================= -->
-		<!-- CIELO -->
-		<!-- ========================= -->
+    <!-- ========================= -->
+    <!-- CIELO -->
+    <!-- ========================= -->
 
-		<a-sky color="#F4C7A1"></a-sky>
-
-
-		<!-- ========================= -->
-		<!-- SUELO -->
-		<!-- ========================= -->
-
-		<a-plane
-			position="0 0 0"
-			rotation="-90 0 0"
-			width="30"
-			height="30"
-			color="#7B633F">
-		</a-plane>
+    <a-sky color="#F4C7A1"></a-sky>
 
 
-		<!-- ========================= -->
-		<!-- CAMINO -->
-		<!-- ========================= -->
+    <!-- ========================= -->
+    <!-- SUELO -->
+    <!-- ========================= -->
 
-		<a-plane
-			position="0 0.01 -5"
-			rotation="-90 0 0"
-			width="4"
-			height="25"
-			color="#B89468">
-		</a-plane>
-
-
-		<!-- ========================= -->
-		<!-- ÁRBOLES -->
-		<!-- ========================= -->
-
-		<!-- Árbol 1 -->
-		<a-cylinder
-			position="-4 2 -4"
-			radius="0.5"
-			height="4"
-			color="#5C3B24">
-		</a-cylinder>
-
-		<a-sphere
-			position="-4 4.5 -4"
-			radius="2"
-			color="#C96B32">
-		</a-sphere>
+    <a-plane
+      position="0 0 0"
+      rotation="-90 0 0"
+      width="30"
+      height="30"
+      color="#7B633F">
+    </a-plane>
 
 
-		<!-- Árbol 2 -->
-		<a-cylinder
-			position="4 2 -7"
-			radius="0.5"
-			height="4"
-			color="#5C3B24">
-		</a-cylinder>
+    <!-- ========================= -->
+    <!-- CAMINO -->
+    <!-- ========================= -->
 
-		<a-sphere
-			position="4 4.5 -7"
-			radius="2"
-			color="#D99036">
-		</a-sphere>
+    <a-plane
+      position="0 0.01 -5"
+      rotation="-90 0 0"
+      width="4"
+      height="25"
+      color="#B89468">
+    </a-plane>
 
 
-		<!-- Árbol 3 -->
-		<a-cylinder
-			position="-5 2 -12"
-			radius="0.5"
-			height="4"
-			color="#5C3B24">
-		</a-cylinder>
+    <!-- ========================= -->
+    <!-- ÁRBOLES -->
+    <!-- ========================= -->
 
-		<a-sphere
-			position="-5 4.5 -12"
-			radius="2"
-			color="#B94E2C">
-		</a-sphere>
+    <!-- Árbol 1 -->
+    <a-cylinder
+      position="-4 2 -4"
+      radius="0.5"
+      height="4"
+      color="#5C3B24">
+    </a-cylinder>
 
-
-		<!-- Árbol 4 -->
-		<a-cylinder
-			position="5 2 -15"
-			radius="0.5"
-			height="4"
-			color="#5C3B24">
-		</a-cylinder>
-
-		<a-sphere
-			position="5 4.5 -15"
-			radius="2"
-			color="#E0A83B">
-		</a-sphere>
+    <a-sphere
+      position="-4 4.5 -4"
+      radius="2"
+      color="#C96B32">
+    </a-sphere>
 
 
-		<!-- ========================= -->
-		<!-- CÁMARA -->
-		<!-- ========================= -->
+    <!-- Árbol 2 -->
+    <a-cylinder
+      position="4 2 -7"
+      radius="0.5"
+      height="4"
+      color="#5C3B24">
+    </a-cylinder>
 
-		<a-camera
-			position="0 1.6 4">
-		</a-camera>
-		<a-text value="BIENVENIDO A SERENIA VR"
-		position="-3 2 -1"
-		color="#3417D4"
-		width="10">
-	</a-text>
+    <a-sphere
+      position="4 4.5 -7"
+      radius="2"
+      color="#D99036">
+    </a-sphere>
 
-	</a-scene>
+
+    <!-- Árbol 3 -->
+    <a-cylinder
+      position="-5 2 -12"
+      radius="0.5"
+      height="4"
+      color="#5C3B24">
+    </a-cylinder>
+
+    <a-sphere
+      position="-5 4.5 -12"
+      radius="2"
+      color="#B94E2C">
+    </a-sphere>
+
+
+    <!-- Árbol 4 -->
+    <a-cylinder
+      position="5 2 -15"
+      radius="0.5"
+      height="4"
+      color="#5C3B24">
+    </a-cylinder>
+
+    <a-sphere
+      position="5 4.5 -15"
+      radius="2"
+      color="#E0A83B">
+    </a-sphere>
+
+
+    <!-- ========================= -->
+    <!-- CÁMARA -->
+    <!-- ========================= -->
+
+    <a-camera
+      position="0 1.6 4">
+    </a-camera>
+    <a-text value="BIENVENIDO A SERENIA VR"
+    position="-3 2 -1"
+    color ="#3417D4"
+    width="10">
+  </a-text>
+
+  </a-scene>
 
 </body>
 </html>
